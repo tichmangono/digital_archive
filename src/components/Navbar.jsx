@@ -22,13 +22,13 @@ const Navbar = () => (
     <SearchBar/>
 
      <Box style={{display: "flex", alignItems: "left"}}>
-      <Link to="https://www.facebook.com/HumanitarianOutcomes/"  >
+      <Link to="https://www.facebook.com/HumanitarianOutcomes/" target="_blank" >
         <Facebook sx = {{color: "#fff", mr: 1}}/>
       </Link>
-      <Link to="https://twitter.com/humoutcomes" >
+      <Link to="https://twitter.com/humoutcomes" target="_blank">
       <Twitter sx = {{color: "#fff", mr: 1}}/>
       </Link>      
-      <Link to="https://www.linkedin.com/company/humanitarian-outcomes/" >
+      <Link to="https://www.linkedin.com/company/humanitarian-outcomes/" target="_blank">
          <LinkedIn sx = {{color: "#fff", mr: 1}}/>
       </Link>
      
