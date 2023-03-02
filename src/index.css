@@ -26,12 +26,12 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
-  color: white !important;
+  background-color: #cdd8e0 !important;
+  color: #003F4F !important;
 }
 
 .category-btn:hover span{
-  color: white !important;
+  color: #003F4F !important;
 }
 
 .react-player {
@@ -55,7 +55,7 @@ a {
   background: transparent;
   outline: none;
   border: none;
-
+  
   padding: 7px 15px;
   margin: 10px 0px;
   border-radius: 20px;

@@ -13,14 +13,6 @@ export const categories = [
   { name: 'Project TBA 2', icon: <WorkOutline /> },
   { name: 'Project TBA 3', icon: <WorkOutline />, },
   { name: 'Project TBA 4', icon: <WorkOutline />, },
-  { name: 'Project TBA 5', icon: <WorkOutline />, },
-  { name: 'Project TBA 6', icon: <WorkOutline />, },
-  { name: 'Project TBA 7', icon: <WorkOutline />, },
-  { name: 'Project TBA 8', icon: <WorkOutline /> },
-  { name: 'Project TBA 9', icon: <WorkOutline />, },
-  { name: 'Project TBA 10', icon: <WorkOutline />, },
-  { name: 'Project TBA 11', icon: <WorkOutline />, },
-  { name: 'Project TBA 12', icon: <WorkOutline />, },
  
 ];
 

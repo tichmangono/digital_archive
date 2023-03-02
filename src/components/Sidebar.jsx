@@ -4,8 +4,8 @@ import {categories} from "../utils/constants"
 
 const Sidebar = ({selectedCategory, setSelectedCategory}) => (
 
-<Stack direction="row" width="100%" sx = {{overflowY: "auto", height: {sx: 'auto', md: '95%'}, 
-flexDirection: {md:"column"}, backgroundColor:"#003F4F" }}>
+<Stack direction="row" marginTop="5%"  width="100%" sx = {{overflowY: "auto", height: {sx: 'auto', md: '95%'}, 
+flexDirection: {md:"column"}, backgroundColor:"#FFF"}}>
  {categories.map((category) => (
   <button className='category-btn'
      onClick = {()=> setSelectedCategory(category.name)}
@@ -20,6 +20,8 @@ flexDirection: {md:"column"}, backgroundColor:"#003F4F" }}>
    >{category.icon}</span>
    <span style = {{
     opacity: category.name === selectedCategory ? '1' : '0.8'
+    , color: category.name === selectedCategory? "#FFF": "#003F4F"
+   
    }}
    >{category.name}</span>
   </button>

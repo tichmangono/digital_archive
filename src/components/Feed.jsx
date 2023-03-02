@@ -28,7 +28,7 @@ const Feed = () => {
           <span style = {{
             color: "#003F4F"
           }}>
-            {" videos"}
+            {" documents"}
           </span>
         </Typography>
         <Videos videos = {videos}/>   

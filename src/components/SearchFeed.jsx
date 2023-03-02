@@ -23,7 +23,7 @@ const SearchFeed = () => {
             color: "#003F4F"
           }}>
             {" "} {searchTerm}
-          </span> videos
+          </span> documents
         </Typography>
         <Videos videos = {videos}/>   
       </Box>

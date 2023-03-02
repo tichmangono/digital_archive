@@ -14,11 +14,16 @@ const Navbar = () => (
     <Link to ="/" style={{display: "flex", alignItems: "center"}}>
       <img  src={logo} alt="logo" height={45}/>
     </Link>
-    <Typography variant="h4" sx = {{color: "#cdd8e0", alignItems: "left"}}>
-      Humanitarian 
-      <span style = {{fontColor: "#fff"}}> Outcomes</span>
-    </Typography>
-  
+
+    <Link to ="/" style={{display: "flex", alignItems: "center"}}>
+    <Typography variant="h5" sx = {{color: "#cdd8e0", alignItems: "left"}}>
+      Humanitarian
+      <span style = {{color: "#fff"}}> Rapid Research </span>
+      Initiative (HRRI) 
+      <span style = {{color: "#fff"}}> Digital Archive</span>    
+      </Typography>
+    </Link>
+    
     <SearchBar/>
 
      <Box style={{display: "flex", alignItems: "left"}}>
