@@ -48,7 +48,7 @@ const Home = () => {
       
       </Box>
       */}
-      <Box p={2} mt={3} sx ={{ height: '90vh', flex: 2, backgroundColor: "white"}}>
+      <Box p={2} mt={3} sx ={{  flex: 2, backgroundColor: "white"}}>
         <Typography variant= "h4" fontWeight = "bold" mb={2} sx = {{color: "#0085a8"}}>
           Explore
           <span style = {{
@@ -60,11 +60,25 @@ const Home = () => {
         
         <Stack direction="row" flex = "wrap"  spacing={2} mb={2}> 
           <Box>
-           <Link to ="/feed">
+           
             <Typography variant="h6" fontWeight = "bold" sx = {{color: "#003F4F"}}>
              Click to Explore!
             </Typography>
+           
+
+            <Link to ="/channels">
+            <Typography variant="h6" fontWeight = "bold" sx = {{color: "#003F4F"}}>
+             Browse by Category
+            </Typography>
            </Link>
+
+            <Link to ="/feed">
+            <Typography variant="h6" fontWeight = "bold" sx = {{color: "#003F4F"}}>
+             Browse the whole Archive
+            </Typography>
+           </Link>
+
+
           </Box>
         
         </Stack>
