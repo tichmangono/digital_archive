@@ -2,7 +2,7 @@ import WorkOutline from '@mui/icons-material/WorkOutline';
 import HomeIcon from '@mui/icons-material/Home';
 
 //export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
-export const logo = '../../public/ho_logo_image.png';
+export const logo = process.env.PUBLIC_URL+'/ho_logo_image.png';
 
 export const categories = [
   { name: 'Home', icon: <HomeIcon />, },
